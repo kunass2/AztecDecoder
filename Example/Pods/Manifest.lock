@@ -1,0 +1,16 @@
+PODS:
+  - AztecDecoder (0.1.0)
+
+DEPENDENCIES:
+  - AztecDecoder (from `../`)
+
+EXTERNAL SOURCES:
+  AztecDecoder:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AztecDecoder: a6eeca76e7ab991c120be7a1e86dd9830f4ef71d
+
+PODFILE CHECKSUM: 855692cd30fe1fe1d925bf6bb1e7741e22072864
+
+COCOAPODS: 1.10.1
