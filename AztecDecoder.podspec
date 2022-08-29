@@ -13,19 +13,8 @@ Pod::Spec.new do |s|
   s.description      = "Looking for simple Swift library to decode aztec string? This one is for you:)"
   s.homepage         = 'https://github.com/kunass2/AztecDecoder'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Bartłomiej Semańczyk' => 'bartekss2@icloud.com' }
-  s.source           = { :git => 'https://github.com/Bartłomiej Semańczyk/AztecDecoder.git', :tag => s.version.to_s }
+  s.author           = { 'Bartlomiej Semanczyk' => 'bartekss2@icloud.com' }
+  s.source           = { :git => 'https://github.com/kunass2/AztecDecoder.git', :tag => s.version.to_s }
   s.ios.deployment_target = '11.0'
-
   s.source_files = 'AztecDecoder/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'MaskedTextField' => ['MaskedTextField/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'SnapKit'
-  # s.dependency 'RxSwift'
-  # s.dependency 'RxCocoa'
 end
