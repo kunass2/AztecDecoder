@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'AztecDecoder_Example' do
+  pod 'AztecDecoder', :path => '../'
+
+  target 'AztecDecoder_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
