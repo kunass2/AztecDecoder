@@ -39,7 +39,8 @@ you may also use:
 
 within **bridging header** file and avoid to import framework for every needed file.
 
-##Usage
+
+## Usage
 
 ```Swift
         let aztecString = "[here_your_string]"
